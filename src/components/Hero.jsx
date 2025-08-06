@@ -58,6 +58,7 @@ const Hero = () => {
           </div>
           <div className='flex-1 w-full'>
             <div className='relative'>
+              <div className='absolute -inset-0.5 bg-gradient-to-r from-amber-500 to-indigo-900 rounded-2xl blur-xl opacity-50 animate-pulse'></div>
               <div className='relative bg-white dark:bg-neutral-900 p-4 lg:p-5 xl:p-6 rounded-2xl shadow-2xl border border-neutral-200 dark:border-neutral-800'>
                 <div className='flex items-center justify-between mb-3 lg:mb-4'>
                   <div className='flex items-center gap-2'>
@@ -92,6 +93,16 @@ const Hero = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className='hidden md:block absolute bottom-8 left-8 lg:bottom-10 lg:left-10 animate-bounce'>
+        <div className='bg-neutral-900 text-white px-2.5 py-1.5 rounded-lg text-xm lg:text-sm flex items-center shadow-lg'>
+          <i className='bx bx-check-circle mr-1 text-amber-500' ></i> Responsive
+        </div>
+      </div>
+      <div className='hidden md:block absolute top-16 right-[15%] lg:top-20 lg:right-[20%] animate-bounce delay-300'>
+        <div className='bg-neutral-900 text-white px-2.5 py-1.5 rounded-lg text-xm lg:text-sm flex items-center shadow-lg'>
+          <i className='bx bx-check-circle mr-1 text-amber-500' ></i> Acessible
         </div>
       </div>
     </div>
