@@ -22,7 +22,7 @@ const Hero = () => {
               <p className='text-base lg:text-lg text-neutral-700 dark:text-neutral-300 max-w-2xl font-light'>Elevate your web projects with our streamlined design system powered by the latest Tailwind CSS v4. Create stunning user experiences with state-of-the-art theme switching.</p>
               <div className='flex gap-3 items-center'>
                 <div className='h-px bg-neutral-300 dark:bg-neutral-700 w-12'></div>
-                <p className='uppercase text-xs tracking-widest text-neutral-500 dark:text-neutral-400 font-medium'> Tansition Seamlessly</p>
+                <p className='uppercase text-xs tracking-widest text-neutral-500 dark:text-neutral-400 font-medium'> Transition Seamlessly</p>
               </div>
               <div className='flex flex-wrap gap-3 lg:gap-4'>
                 <button className='px-6 py-3 lg:px-7 lg:py-3.5 rounded-lg bg-neutral-900 hover:bg-black text-white dark:bg-amber-500 dark:hover:bg-amber-600 dark:text-neutral-900 font-medium shadow-lg hover:shadow-neutral-900/20 dark:hover:shadow-amber-500/20 flex items-center transition group'>
